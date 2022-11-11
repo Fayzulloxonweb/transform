@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.block1{
+			float: left;
+			width: 250px;
+			height: 200px;
+			border: 1px solid black;
+			border-radius: 10px;
+			margin: 2px;
+		}
+		.block2{
+			float: left;
+			width: 250px;
+			height: 200px;
+			border: 1px solid black;
+			margin: 2px;
+			border-radius: 10px;
+		}
+		.block3{
+			float: left;
+			width: 250px;
+			height: 200px;
+			border: 1px solid black;
+			margin: 2px;
+			border-radius: 10px;
+		}
+		.block4{
+			float: left;
+			width: 250px;
+			height: 200px;
+			border: 1px solid black;
+			margin: 2px;
+			border-radius: 10px;
+		}
+		.block1 img{
+			width: 200px;
+			height: 150px;
+			position: absolute;
+			top: 20px;
+			left: 35px;
+		}
+		.block1 p{
+			position: absolute;
+			top: 170px;
+			left: 80px;
+			color: #444;
+			font-size:20px;
+			opacity: 1;
+			transition: .5s;
+		}
+		.block1:hover p{
+			opacity: 0;
+		}
+		.block2 img{
+			width: 200px;
+			height: 150px;
+			margin-left: 25px;
+			margin-top: 10px;
+			transition: .5s;
+			opacity: 0;
+		}
+		.block2:hover img{
+			opacity: 1;
+
+		}
+		.block2 p{
+			position: absolute;
+			top: 165px;
+			left: 335px;
+			color: #444;
+			font-size:20px;
+			opacity: 0;
+			transition: .5s;
+		}
+		.block2:hover p{
+			opacity: 1;
+		}
+		.block3 img{
+			width: 200px;
+			height: 150px;
+			position: absolute;
+			top: 20px;
+			left: 550px;
+			transition: .5s;
+		}
+		.block3 div{
+			float: left;
+			width: 250px;
+			height: 200px;
+			border-radius: 10px;
+			background: black;
+			opacity: 0;
+			transition: .5s;
+		}
+		.block3:hover div{
+			opacity: 1;
+		}
+		.block3:hover img{
+			opacity: 0;
+		}
+		.block4 img{
+			width: 200px;
+			height: 150px;
+			position: absolute;
+			top: 20px;
+			left: 810px;
+			transition: .5s;
+		}
+		.block4 .a4 img{
+			width: 200px;
+			height: 150px;
+			position: absolute;
+			top: 20px;
+			left: 810px;
+			transition: .5s;
+			opacity: 0;
+		}
+		.block4:hover .a4 img{
+			opacity: 1;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="block1">
+		<img src="images.jpg">
+		<p>Acer into 500$</p>
+		</div>
+		<div class="block2">
+			<img src="images (1).jpg">
+			<p>Acer into 700$</p>
+		</div>
+		<div class="block3">
+			<img src="images.jpg">
+			<div></div>
+		</div>
+		<div class="block4">
+			<img src="images.jpg">
+			<div class="a4"><img src="Screenshot_20221030-200626.jpg"></div>
+		</div>
+	</div>
+
+</body>
+</html>
